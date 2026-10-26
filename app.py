@@ -154,7 +154,7 @@ def index():
 
 @app.route('/download-resume')
 def download_resume():
-    resume_path = r'c:\Users\Naziruddin S\Downloads\Naziruddin_S_CV_2026.pdf'
+    resume_path = os.path.join(os.path.dirname(__file__), 'static', 'Naziruddin_S_Resume.pdf')
     if os.path.exists(resume_path):
         return send_file(resume_path, as_attachment=True, download_name='Naziruddin_S_Resume.pdf')
     return "Resume not found", 404
