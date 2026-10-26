@@ -114,7 +114,7 @@ portfolio_data = {
             'title': 'Steganography Application',
             'description': 'A comprehensive platform for hiding data within various types of multimedia files, including images, audio, and text. The application conceals the existence of hidden data using steganography techniques. Built using Python with Flask Framework.',
             'tags': ['Python', 'Flask', 'Steganography', 'Image Processing'],
-            'link': 'https://github.com/NaziruddinS/Steganography.git',
+            'link': 'https://steganography-fz6z.onrender.com/',
             'featured': False,
             'badge': 'Security'
         }
